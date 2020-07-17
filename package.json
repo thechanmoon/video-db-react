@@ -4,7 +4,6 @@
   "private": true,
   "dependencies": {
     "axios": "^0.18.0",
-    "gh-pages": "^2.0.1",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
@@ -25,11 +24,14 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "homepage": "https://hungry-noether-8ac1d6.netlify.com",
+  "homepage": "https://thechanmoon.github.io/video-db-react",
   "browserslist": [
     ">0.2%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
 }
